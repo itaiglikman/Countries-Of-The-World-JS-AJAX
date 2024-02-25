@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(assets/images/map-background.jpg) top/cover no-repeat fixed;
+    margin: 20px 30px;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+
+#searchBox{
+    width: 250px;
+}
+
+
+p{
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.table{
+    opacity: .9;
+    display: inline-block;
+}
+
+#tableContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
